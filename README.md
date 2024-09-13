@@ -1,1 +1,0 @@
-# spam_filter_life_cycle
