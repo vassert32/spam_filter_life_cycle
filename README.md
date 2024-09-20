@@ -71,9 +71,9 @@ The following summarizes the performance comparison across the vectorization met
 
 | Vectorization | Accuracy | Precision | Recall | F1-Score | Training Time |
 |---------------|----------|-----------|--------|----------|---------------|
-| **TF-IDF**    | 92.3%    | 91.0%     | 93.5%  | 92.2%    | Fast          |
-| **GloVe**     | 90.8%    | 89.2%     | 91.1%  | 90.1%    | Medium        |
-| **BERT**      | 94.5%    | 93.8%     | 95.1%  | 94.4%    | Slow          |
+| **TF-IDF**    | *        | *         | *      | *        | Fast          |
+| **GloVe**     | *        | *         | *      | *        | Medium        |
+| **BERT**      | *        | *         | *      | *        | Slow          |
 
 The detailed analysis shows that while BERT provides the highest accuracy and F1-score, it also requires significantly more computational resources and time compared to TF-IDF and GloVe.
 
@@ -82,4 +82,10 @@ The detailed analysis shows that while BERT provides the highest accuracy and F1
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/your-username/spam-filter-comparison.git
+git clone https://github.com/vasser32/spam-filter-life-cycle.git
+```
+2. Install the required dependencies
+```
+pip install -r requirements.txt
+```
+3. 
