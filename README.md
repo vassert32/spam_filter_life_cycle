@@ -34,7 +34,7 @@ We use a publicly available dataset of spam and non-spam messages (SMS). Each me
 
 ## Text Vectorization Methods
 
-### TF-IDF
+###TF-IDF
 
 Term Frequency-Inverse Document Frequency (TF-IDF) is a numerical statistic used to reflect the importance of a word in a document relative to the entire dataset. It is a widely used method for transforming raw text data into numerical vectors suitable for machine learning models.
 
