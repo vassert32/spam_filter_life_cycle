@@ -1,8 +1,8 @@
-# Spam Filter: Comparing Vectorization Methods (TF-IDF, GloVe, BERT)
+# Spam Filter: Comparing Vectorization Methods (TF-IDF, Word2Vec, BERT)
 
 ## Project Overview
 
-The goal of this project is to build a spam filter using machine learning classification methods and compare different text vectorization techniques: TF-IDF, GloVe, and BERT. The project includes a detailed performance analysis of these methods in terms of speed and classification quality.
+The goal of this project is to build a spam filter using machine learning classification methods and compare different text vectorization techniques: TF-IDF, Word2Vec, and BERT. The project includes a detailed performance analysis of these methods in terms of speed and classification quality.
 
 ## Table of Contents
 
@@ -23,7 +23,7 @@ The goal of this project is to build a spam filter using machine learning classi
 
 - **Python** for data preprocessing, vectorization, and model training
 - **scikit-learn** for TF-IDF vectorization and classification models
-- **Gensim** for GloVe vectorization
+- **Gensim** for Word2Vec vectorization
 - **Transformers** from Hugging Face for BERT embeddings
 - **Pandas** and **NumPy** for data manipulation
 - **Matplotlib** and **Seaborn** for visualizing results
@@ -38,9 +38,9 @@ We use a publicly available dataset of spam and non-spam messages (SMS). Each me
 
 Term Frequency-Inverse Document Frequency (TF-IDF) is a numerical statistic used to reflect the importance of a word in a document relative to the entire dataset. It is a widely used method for transforming raw text data into numerical vectors suitable for machine learning models.
 
-### GloVe
+### Word2Vec
 
-GloVe (Global Vectors for Word Representation) is a word embedding technique that represents words in continuous vector spaces, capturing semantic relationships between words based on their co-occurrence in a large corpus of text.
+asjdllkaskldjaklsdkl
 
 ### BERT
 
@@ -72,7 +72,7 @@ The following summarizes the performance comparison across the vectorization met
 | Vectorization | Accuracy | Precision | Recall | F1-Score | Training Time |
 |---------------|----------|-----------|--------|----------|---------------|
 | **TF-IDF**    | *        | *         | *      | *        | Fast          |
-| **GloVe**     | *        | *         | *      | *        | Medium        |
+| **W2V**       | *        | *         | *      | *        | Medium        |
 | **BERT**      | *        | *         | *      | *        | Slow          |
 
 The detailed analysis shows that while BERT provides the highest accuracy and F1-score, it also requires significantly more computational resources and time compared to TF-IDF and GloVe.
